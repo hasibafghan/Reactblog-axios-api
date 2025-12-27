@@ -1,10 +1,14 @@
-import { StrictMode } from 'react'
-import { createRoot } from 'react-dom/client'
-import './main.css'
-import App from './App.jsx'
+import "bootstrap/dist/css/bootstrap.rtl.min.css";
+import "./main.css";
+import App from "./App.jsx";
+import { StrictMode } from "react";
+import { createRoot } from "react-dom/client";
+import { ThemeProvider } from "react-bootstrap";
 
-createRoot(document.getElementById('root')).render(
+createRoot(document.getElementById("root")).render(
   <StrictMode>
-    <App />
-  </StrictMode>,
-)
+    <ThemeProvider dir="rtl">
+      <App />
+    </ThemeProvider>
+  </StrictMode>
+);
