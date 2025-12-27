@@ -1,10 +1,12 @@
-import './About.css'
+import MyNavbar from "../../components/navbar/Navbar";
+import "./About.css";
 function About() {
-    return (  
-        <>
-        <h1>About</h1>
-        </>
-    );
+  return (
+    <>
+      <MyNavbar />
+      <h1>About</h1>
+    </>
+  );
 }
 
 export default About;
