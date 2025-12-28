@@ -14,14 +14,14 @@ function MyNavbar() {
       <Navbar
         key={expand}
         expand={expand}
-        style={{ backgroundColor: "rgb(186, 182 ,253)" }}
+        style={{ backgroundColor: "rgba(178, 178, 178, 1)" }}
       >
         <Container>
           <Navbar.Brand
             href="#"
             style={{ fontFamily: "Lalezar", fontSize: "27px" }}
           >
-            افغانستان من
+            افغانستان اکادمی
           </Navbar.Brand>
           <Navbar.Toggle aria-controls={`offcanvasNavbar-expand-${expand}`} />
           <Navbar.Offcanvas
