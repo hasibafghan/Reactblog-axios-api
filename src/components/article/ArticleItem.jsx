@@ -23,7 +23,7 @@ function ArticleItem(props) {
         </span>
       </Card.Body>
       <Card.Footer className="d-flex justify-content-between align-items-center py-3">
-        <span>{props.author}</span>
+        <span>{props.writter}</span>
         <span>
           {" "}
           <BiTimeFive /> {props.readingTime}
