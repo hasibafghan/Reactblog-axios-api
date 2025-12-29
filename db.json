@@ -71,42 +71,6 @@
       "writter": "عباس",
       "category": "رابط کاربری",
       "readingTime": "6"
-    },
-    {
-      "id": "b6e1",
-      "image": "http://localhost:5000/images/tailwind.jpg",
-      "title": "عنوان مقاله نهم",
-      "disc": "لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ و با استفاده از طراحان گرافیک است .",
-      "writter": "حسیب الله",
-      "category": "برنامه نویسی",
-      "readingTime": "3"
-    },
-    {
-      "id": "1fb1",
-      "title": "Human Communications Consultant",
-      "desc": "Dolor rem eaque.",
-      "image": "Commodi soluta debitis quo necessitatibus architecto quod autem.",
-      "writter": "Magnam perspiciatis cupiditate qui nisi sunt.",
-      "category": "Albania",
-      "readingTime": "142"
-    },
-    {
-      "id": "e02d",
-      "title": "",
-      "desc": "",
-      "image": "asas",
-      "writter": "",
-      "category": "",
-      "readingTime": ""
-    },
-    {
-      "id": "6578",
-      "title": "",
-      "desc": "",
-      "image": "",
-      "writter": "asd",
-      "category": "",
-      "readingTime": ""
     }
   ]
 }
