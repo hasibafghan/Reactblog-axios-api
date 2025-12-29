@@ -29,21 +29,21 @@ function Article() {
           <Col lg={4}>
             <div className="articleCardContainer">
                 <div className="cardHeader">
-                    <img src="http://localhost:5000/images/bootstrap.png"/>
-                    <h4>عنوان مقاله</h4>
+                    <img src={articleData.image}/>
+                    <h4>{articleData.title}</h4>
                 </div>
                 <div className="cardBody">
                     <p>
                         <BsPencilSquare size='20px' />
-                        نویسنده : <b>میلاد</b>
+                        نویسنده : <b>{articleData.writter}</b>
                     </p>
                     <p>
                         <BiTimeFive size='20px' />
-                        مدت زمان : <b>5 دقیقه</b>
+                        مدت زمان : <b>{articleData.readingTime}</b>
                     </p>
                     <p>
                         <BiCategoryAlt size='20px' />
-                         دسته بندی : <b>برنامه نویسی وب</b>
+                         دسته بندی : <b>{articleData.category}</b>
                     </p>
                 </div>
                 <div className="cardFooter">
