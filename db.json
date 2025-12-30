@@ -71,6 +71,15 @@
       "writter": "عباس",
       "category": "رابط کاربری",
       "readingTime": "6"
+    },
+    {
+      "id": "0cf6",
+      "title": "حسیب",
+      "desc": "ساده است",
+      "writter": "جنگی",
+      "category": "اسلاح",
+      "image": "http://localhost:5000/images/tailwind.jpg",
+      "readingTime": "10000"
     }
   ]
 }

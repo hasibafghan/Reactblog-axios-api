@@ -1,7 +1,7 @@
 import axios from "axios";
 import { useEffect, useState } from "react";
 import { Container, Row, Col, Button } from "react-bootstrap";
-import { Navigate, useNavigate, useParams } from "react-router-dom";
+import { Link, useNavigate, useParams } from "react-router-dom";
 import MyNavbar from "../../components/navbar/Navbar";
 
 import { BsPencilSquare } from "react-icons/bs";
@@ -14,7 +14,7 @@ function Article() {
   const articleId = useParams().articleId;
   const [articleData, setArticleData] = useState({});
   const navigate = useNavigate();
-  
+
   useEffect(() => {
     axios
       .get(`http://localhost:5000/articles/${articleId}`)
@@ -75,14 +75,16 @@ function Article() {
                 >
                   <MdDelete size="25px" /> حذف مقاله
                 </Button>
-                <Button variant="outline-primary">
-                  <MdOutlineEditCalendar size="25px" /> ویرایش مقاله مقاله
-                </Button>
+                <Link to={`/edit-article/${articleId}`}>
+                  <Button variant="outline-primary">
+                    <MdOutlineEditCalendar size="25px" /> ویرایش مقاله مقاله
+                  </Button>
+                </Link>
               </div>
             </div>
           </Col>
 
-          <Col lg={8} style={{ fontFamily: "Yekan" }}>
+          <Col lg={8} style={{ fontFamily: "Yekan" }} className="py-4">
             <p>
               لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ، و با
               استفاده از طراحان گرافیک است، چاپگرها و متون بلکه روزنامه و مجله
